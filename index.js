@@ -16,7 +16,7 @@ mongoose.connect(URL).then(() => {
 const cors = require('cors');
 
 const corsOptions = {
-    origin: "https://crudsystem611.netlify.app",
+    origin: "https://crud-system-client-react-js.vercel.app",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
 };
